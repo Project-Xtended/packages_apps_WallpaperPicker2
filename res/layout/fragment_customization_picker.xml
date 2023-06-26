@@ -14,8 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/scroll_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,4 +28,4 @@
         android:layout_height="match_parent"
         android:layout_marginVertical="@dimen/section_container_vertical_margin"
         android:orientation="vertical" />
-</androidx.core.widget.NestedScrollView>
+</com.android.customization.picker.HorizontalTouchMovementAwareNestedScrollView>
